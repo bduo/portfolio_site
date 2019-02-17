@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portfolio Site</title>
-    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <title>Brandon El Haj Portfolio</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Exo|Vollkorn:400,700" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    <header role="banner">
+    <header role="banner" id="banner_section">
         <nav role="navigation" class="navigation">
-            <a href="#" class="logo"></a>     
+            <img src="//:0" class="logo" alt>     
             <ul class="navigation-items">
-                <li>home</li>
-                <li>about</li>
-                <li>work</li>
-                <li>contact</li>
+                <a href="#banner_section"><li>home</li></a>
+                <a href="#about_section"><li>about</li></a>
+                <a href="#work_section"><li>work</li></a>
+                <a href="#contact_section"><li>contact</li></a>
             </ul>
         </nav>
     </header>
@@ -27,36 +28,33 @@
             <h1>Brandon</h1>
         </div>
         <div class="text-center">
-            <h1>And</h1>
+            <h1 class="gold-amp">&</h1>
             <h1>I</h1>
             <h1>Love</h1>
             <h1>To</h1>
             <h1>Code</h1>
         </div>
         <a href="#work_section"><button class="work-button">Work</button></a>
-        <div class="address-center">
-            <address>
-                <h2 class="job-title">Full Stack Developer</h2>
-                <h3 class="city-title">Portland, OR</h3>
-                <a href="mail.to:brandon.elhaj@gmail.com" class="email">brandon.elhaj@gmail.com</a>
-                <div class="favicon-horizontal">
-                    <a href="#" class="email-icon"></a>
-                    <a href="https://www.linkedin.com/in/brandonelhaj/" class="linkedin-icon"></a>
-                    <a href="https://github.com/bduo" class="github-icon"></a>
-                </div>
-            </address>
-        </div>
     </section>
-    <section role="article" id="about_section">
+    <section role="article" id="about_section"></section>    
         <img src="/assets/brandon.jpg" alt="Photo of Brandon El Haj" class="brandon-photo">
-        <h1 class="center-h1">About</h1>
+        <div class="address-center">
+            <h2 class="job-title">Full Stack Developer</h2>
+            <h3 class="city-title">Portland, OR</h3>
+            <a href="mailto:brandon.elhaj@gmail.com?subject=Brandon El Haj Portfolio Site" class="email">BRANDON.ELHAJ@GMAIL.COM</a>
+            <div class="favicon-horizontal">
+            <a href="https://github.com/bduo" class="github-icon"></a>
+            <a href="https://www.linkedin.com/in/brandonelhaj/" class="linkedin-icon"></a>
+            <a href="mailto:brandon.elhaj@gmail.com?subject=Brandon El Haj Portfolio Site" class="email-icon"></a>
+            </div>
+        </div>    
         <div class="paragraph-center">
-            <p>Tagline The best Lorem Ipsum Generator in all the sea! 
+            <p class="paragraph-text">Tagline The best Lorem Ipsum Generator in all the sea! 
             Heave this scurvy copyfiller fer yar next adventure and 
             cajol yar clients into walking the plank with ev'ry layout!
             </p>
         </div>
-        <button class="contact-button">Contact</button>
+        <a href="#contact_section"><button class="contact-button">Contact</button></a>
     </section>
     <section role="article" id="work_section">
         <h1 class="center-h1">Work</h1>

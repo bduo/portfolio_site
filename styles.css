@@ -1,6 +1,28 @@
 * {
-    outline: 1px dotted red;
+    /*outline: 1px dotted red;*/
     box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Exo', Helvetica, sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Vollkorn', Georgia, serif;
+    color: #1e3360; 
+}
+
+h1 {
+    font-size: 45px;
+}
+
+header {
+    margin-bottom: 45px;
+}
+
+a {
+    text-decoration: none;
 }
 
 .navigation {
@@ -8,7 +30,8 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0 10px 0 10px;
+    padding: 0 10px 0 15px;
+    margin-top: 15px;
 }
 
 .logo {
@@ -30,19 +53,39 @@ ul.navigation-items {
 }
 
 .navigation-items li {
-    padding: 0 5px 0 5px;
+    font-size: 16px;
+    color: #1e3360;
+    padding: 0 10px 0 10px;
 }
+
+.navigation-items li:hover {
+    color:  #ffc257;
+    cursor: pointer;
+}
+
+.gold-amp {
+    color: #ffc257; 
+}
+
+/*.amp-position {
+    position: absolute;
+    left: 91px;
+    top: 337px;
+    color:  #ffc257;
+    font-size: 51px;
+}*/
 
 .text-center {
     display: block;
     margin: 0 auto;
     width: 20%;
+    line-height: .9;
 }
 
 .address-center {
     display: block;
     margin: 0 auto;
-    width: 200px;
+    width: 240px;
 }
 
 address a {
@@ -50,17 +93,33 @@ address a {
 }
 
 .top-text {
-    padding-left: 10px; 
+    line-height: .9;
+    padding-left: 15px; 
 }
 
 .work-button, .contact-button, .about-button {
     display: block;
     margin: 0 auto;
+    width: 120px;
+    height: 50px;
+    background-color: #ffc257;
+    color: #1e3360;
+    border-radius: 12px;
+    font-size: 26px;
+    margin-bottom: 45px;
+    border: none;
+}
+
+.work-button:hover, .contact-button:hover, .about-button:hover {
+    background-color:  #1e3360;
+    color: #fff;
+    cursor: pointer;
 }
 
 .favicon-horizontal a{
     display: inline-block;
-    padding: 5px 5px 0 5px;
+    margin-top: 10px;
+    margin-right: 10px;
 }
 
 .linkedin-icon {
@@ -75,9 +134,19 @@ address a {
     width: 30px;
 }
 
+.email-icon {
+    background: url(/assets/email.svg) no-repeat center;
+    height: 30px;
+    width:30px;
+}
+
 .brandon-photo, .hotkey-photo {
-    max-width: 100%;
+    max-width: 85%;
     height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 7px;
 }
 
 .center-h1 {
@@ -88,4 +157,30 @@ address a {
     display: block;
     margin: 0 auto;
     width: 90%;
+}
+
+.paragraph-text {
+    line-height: 1.4;
+}
+
+.job-title {
+    margin-top: 30px;
+}
+
+.job-title, .city-title, .email {
+    line-height: .2;
+}
+
+.job-title, .city-title {
+    font-family: 'Vollkorn', Georgia, serif;
+}
+
+.email {
+    color: #1e3360;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.email:hover {
+    color:  #ffc257; 
 }
