@@ -45,7 +45,7 @@ footer {
 }
 
 .logo {
-    background: url(/assets/logo_b_square_small_final.svg) no-repeat center;
+    background: url(assets/logo_b_square_small_final.svg) no-repeat center;
     height: 67.5px;
     width: 59px;
 }
@@ -139,19 +139,19 @@ address a {
 }
 
 .linkedin-icon {
-    background: url(/assets/linkedin.svg) no-repeat center;
+    background: url(assets/linkedin.svg) no-repeat center;
     height: 30px;
     width: 30px;
 }
 
 .github-icon {
-    background: url(/assets/github.svg) no-repeat center;
+    background: url(assets/github.svg) no-repeat center;
     height: 30px;
     width: 30px;
 }
 
 .email-icon {
-    background: url(/assets/email.svg) no-repeat center;
+    background: url(assets/email.svg) no-repeat center;
     height: 30px;
     width:30px;
 }
