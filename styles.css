@@ -1,3 +1,91 @@
 * {
     outline: 1px dotted red;
+    box-sizing: border-box;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px 0 10px;
+}
+
+.logo {
+    background: url(/assets/logo_b_square_small_final.svg) no-repeat center;
+    height: 67.5px;
+    width: 59px;
+}
+
+.navigation-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+ul.navigation-items {
+    padding-left: 0;
+}
+
+.navigation-items li {
+    padding: 0 5px 0 5px;
+}
+
+.text-center {
+    display: block;
+    margin: 0 auto;
+    width: 20%;
+}
+
+.address-center {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+}
+
+address a {
+    display: block;
+}
+
+.top-text {
+    padding-left: 10px; 
+}
+
+.work-button, .contact-button, .about-button {
+    display: block;
+    margin: 0 auto;
+}
+
+.favicon-horizontal a{
+    display: inline-block;
+    padding: 5px 5px 0 5px;
+}
+
+.linkedin-icon {
+    background: url(/assets/linkedin.svg) no-repeat center;
+    height: 30px;
+    width: 30px;
+}
+
+.github-icon {
+    background: url(/assets/github.svg) no-repeat center;
+    height: 30px;
+    width: 30px;
+}
+
+.brandon-photo, .hotkey-photo {
+    max-width: 100%;
+    height: auto;
+}
+
+.center-h1 {
+    text-align: center;
+}
+
+.paragraph-center {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
 }

@@ -10,9 +10,9 @@
 </head>
 <body>
     <header role="banner">
-        <nav role="navigation">
-            <img src="" alt="Brandon Logo">     
-            <ul>
+        <nav role="navigation" class="navigation">
+            <a href="#" class="logo"></a>     
+            <ul class="navigation-items">
                 <li>home</li>
                 <li>about</li>
                 <li>work</li>
@@ -21,49 +21,73 @@
         </nav>
     </header>
     <section role="article" id="welcome_section">
-        <h1>Hi</h1>
-        <h1>My Name Is</h1>
-        <h1>Brandon</h1>
-        <h1>And</h1>
-        <h1>I</h1>
-        <h1>Love</h1>
-        <h1>To</h1>
-        <h1>Code</h1>
-        <button id="">Work</button>
-        <p>Tagline The best Lorem Ipsum Generator in all the sea! 
-           Heave this scurvy copyfiller fer yar next adventure and 
-           cajol yar clients into walking the plank with ev'ry layout! 
-           Configure above, then get yer pirate ipsum...own the high 
-        </p>
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
+        <div class="top-text">
+            <h1>Hi</h1>
+            <h1>I'm</h1>
+            <h1>Brandon</h1>
+        </div>
+        <div class="text-center">
+            <h1>And</h1>
+            <h1>I</h1>
+            <h1>Love</h1>
+            <h1>To</h1>
+            <h1>Code</h1>
+        </div>
+        <a href="#work_section"><button class="work-button">Work</button></a>
+        <div class="address-center">
+            <address>
+                <h2 class="job-title">Full Stack Developer</h2>
+                <h3 class="city-title">Portland, OR</h3>
+                <a href="mail.to:brandon.elhaj@gmail.com" class="email">brandon.elhaj@gmail.com</a>
+                <div class="favicon-horizontal">
+                    <a href="#" class="email-icon"></a>
+                    <a href="https://www.linkedin.com/in/brandonelhaj/" class="linkedin-icon"></a>
+                    <a href="https://github.com/bduo" class="github-icon"></a>
+                </div>
+            </address>
+        </div>
     </section>
     <section role="article" id="about_section">
-        <img src="" alt="">
-        <h1>About</h1>
-        <div class="">
+        <img src="/assets/brandon.jpg" alt="Photo of Brandon El Haj" class="brandon-photo">
+        <h1 class="center-h1">About</h1>
+        <div class="paragraph-center">
             <p>Tagline The best Lorem Ipsum Generator in all the sea! 
             Heave this scurvy copyfiller fer yar next adventure and 
             cajol yar clients into walking the plank with ev'ry layout!
             </p>
         </div>
-        <button type="submit">Contact</button>
+        <button class="contact-button">Contact</button>
     </section>
     <section role="article" id="work_section">
-        <h1>Work</h1>
-        <img src="" alt="">
-        <p class="">
-           Tagline The best Lorem Ipsum Generator in all the sea! 
-           Heave this scurvy copyfiller fer yar next adventure and 
-        </p>
+        <h1 class="center-h1">Work</h1>
+        <img src="/assets/hotkey_quiz_app.png" alt="Mac OS HotKey Quiz App" class="hotkey-photo">
+        <div class="paragraph-center">
+            <p class="paragraph-text">
+            Tagline The best Lorem Ipsum Generator in all the sea! 
+            Heave this scurvy copyfiller fer yar next adventure and 
+            </p>
+        </div>
         <img src="" alt="">
         <a href="#"></a>
-        <button>About</button>
+        <a href="#about_section"><button class="about-button">About</button></a>
     </section>
     <section role="article" id="contact_section">
-        <h1>Contact</h1>
+        <h1 class="center-h1">Contact</h1>
+        <form method="post" action="contact_process.php">
+			<!-- Name input field -->
+			<label for="name">Name &#42;</label><br>
+			<input type="text" name="name" id="name" class="name" required><br>
+			<!-- Email input field -->
+			<label for="email">Email &#42;</label><br>
+			<input type="email" name="email" id="email" class="email" required><br>
+			<!-- Message input field -->
+			<label for="message">Message &#42;</label><br>
+			<textarea name="message" id="message" value=""></textarea><br>
+			<!-- Submit button and border -->
+			<section class="border">
+				<button type="submit" id="submit" name="submit">Send</button><br>
+			</section>
+		</form>
     </section>
     <footer role="contentinfo">
         <h1>Footer</h1>
