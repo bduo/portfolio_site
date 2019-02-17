@@ -17,12 +17,22 @@ h1 {
     font-size: 45px;
 }
 
+p {
+    color: #1e3360; 
+    font-size: 16px;
+}
+
 header {
     margin-bottom: 45px;
 }
 
 a {
     text-decoration: none;
+}
+
+footer {
+    height: 123px;
+    background-color: #ffc257;
 }
 
 .navigation {
@@ -53,7 +63,7 @@ ul.navigation-items {
 }
 
 .navigation-items li {
-    font-size: 16px;
+    font-size: 13px;
     color: #1e3360;
     padding: 0 10px 0 10px;
 }
@@ -97,7 +107,7 @@ address a {
     padding-left: 15px; 
 }
 
-.work-button, .contact-button, .about-button {
+.work-button, .back-top-button, .about-button {
     display: block;
     margin: 0 auto;
     width: 120px;
@@ -110,7 +120,13 @@ address a {
     border: none;
 }
 
-.work-button:hover, .contact-button:hover, .about-button:hover {
+.work-button:visited, .back-top-button:visited, .about-button:visited {
+    background-color:  #1e3360;
+    color: #fff;
+    cursor: pointer;
+}
+
+.work-button:hover, .back-top-button:hover, .about-button:hover {
     background-color:  #1e3360;
     color: #fff;
     cursor: pointer;
@@ -165,10 +181,11 @@ address a {
 
 .job-title {
     margin-top: 30px;
+    margin-bottom: 0;
 }
 
-.job-title, .city-title, .email {
-    line-height: .2;
+.city-title {
+    margin-top: 2px;
 }
 
 .job-title, .city-title {
@@ -183,4 +200,30 @@ address a {
 
 .email:hover {
     color:  #ffc257; 
+}
+
+.footer-copyright {
+    text-align: center;
+}
+
+.favicon-footer a{
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.center-icons {
+    text-align: center;
+}
+
+.footer-copyright {
+    font-size: 11px;
+    margin-bottom: 12px;
+}
+
+.social-media-text {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+    margin-bottom: 0;
 }

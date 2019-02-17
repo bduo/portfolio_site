@@ -9,8 +9,8 @@
     <link href="https://fonts.googleapis.com/css?family=Exo|Vollkorn:400,700" rel="stylesheet">
     <link href="styles.css" rel="stylesheet" type="text/css" />
 </head>
-<body>
-    <header role="banner" id="banner_section">
+<body id="back-to-top">
+    <header role="banner">
         <nav role="navigation" class="navigation">
             <img src="//:0" class="logo" alt>     
             <ul class="navigation-items">
@@ -54,7 +54,7 @@
             cajol yar clients into walking the plank with ev'ry layout!
             </p>
         </div>
-        <a href="#contact_section"><button class="contact-button">Contact</button></a>
+        <a href="#back-to-top"><button class="back-top-button">Top</button></a>
     </section>
     <section role="article" id="work_section">
         <h1 class="center-h1">Work</h1>
@@ -69,26 +69,14 @@
         <a href="#"></a>
         <a href="#about_section"><button class="about-button">About</button></a>
     </section>
-    <section role="article" id="contact_section">
-        <h1 class="center-h1">Contact</h1>
-        <form method="post" action="contact_process.php">
-			<!-- Name input field -->
-			<label for="name">Name &#42;</label><br>
-			<input type="text" name="name" id="name" class="name" required><br>
-			<!-- Email input field -->
-			<label for="email">Email &#42;</label><br>
-			<input type="email" name="email" id="email" class="email" required><br>
-			<!-- Message input field -->
-			<label for="message">Message &#42;</label><br>
-			<textarea name="message" id="message" value=""></textarea><br>
-			<!-- Submit button and border -->
-			<section class="border">
-				<button type="submit" id="submit" name="submit">Send</button><br>
-			</section>
-		</form>
-    </section>
     <footer role="contentinfo">
-        <h1>Footer</h1>
+        <p class="social-media-text">Find Me!</p>
+        <div class="favicon-footer center-icons">
+            <a href="https://github.com/bduo" class="github-icon"></a>
+            <a href="https://www.linkedin.com/in/brandonelhaj/" class="linkedin-icon"></a>
+            <a href="mailto:brandon.elhaj@gmail.com?subject=Brandon El Haj Portfolio Site" class="email-icon"></a>
+        </div>
+        <p class="footer-copyright center-icons">&copy; Brandon El Haj 2019</p>
     </footer>
 <script src="scripts.js"></script>    
 </body>

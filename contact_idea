@@ -1,0 +1,18 @@
+<section role="article" id="contact_section">
+        <h1 class="center-h1">Contact</h1>
+        <form method="post" action="contact_process.php">
+			<!-- Name input field -->
+			<label for="name">Name &#42;</label><br>
+			<input type="text" name="name" id="name" class="name" required><br>
+			<!-- Email input field -->
+			<label for="email">Email &#42;</label><br>
+			<input type="email" name="email" id="email" class="email" required><br>
+			<!-- Message input field -->
+			<label for="message">Message &#42;</label><br>
+			<textarea name="message" id="message" value=""></textarea><br>
+			<!-- Submit button and border -->
+			<section class="border">
+				<button type="submit" id="submit" name="submit">Send</button><br>
+			</section>
+		</form>
+    </section>
