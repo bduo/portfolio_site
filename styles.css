@@ -31,7 +31,7 @@ a {
     text-decoration: none;
 }
 
-a:focus {
+a:focus, button:focus {
     outline: 0;
     border: none;
     -moz-outline-style: none;
@@ -46,14 +46,10 @@ footer {
     width: 100%;
 }
 
-button:focus {
-    outline:0;
-}
-
 .beige-background:before {
     content: "";
     position: absolute;
-    height: 42%;
+    height: 436px;
     background-color: #f8f7f5;
     z-index: -1;
     width: 100%;
