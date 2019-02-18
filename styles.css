@@ -1,15 +1,14 @@
+/* Mobile Style Sheet */
 * {
-    /*outline: 1px dotted red;*/
     box-sizing: border-box;
 }
 
 body {
     min-height: 100vh;
-    font-family: 'Exo', Helvetica, sans-serif;
 }
 
 h1, h2, h3 {
-    font-family: 'Vollkorn', Georgia, serif;
+    font-family: 'Bree Serif', Georgia, serif;
     color: #1e3360; 
 }
 
@@ -18,6 +17,7 @@ h1 {
 }
 
 p {
+    font-family: 'Open Sans', Helvetica, sans-serif;
     color: #1e3360; 
     font-size: 16px;
 }
@@ -27,12 +27,35 @@ header {
 }
 
 a {
+    font-family: 'Bree Serif', Georgia, serif;
     text-decoration: none;
 }
 
+a:focus {
+    background-color:  #1e3360;
+}
+
 footer {
-    height: 123px;
+    height: 131px;
     background-color: #ffc257;
+}
+
+#welcome_section {
+    width: 100%;
+}
+
+button:focus {
+    outline:0;
+}
+
+.beige-background:before {
+    content: "";
+    position: absolute;
+    height: 423px;
+    background-color: #f8f7f5;
+    z-index: -1;
+    width: 100%;
+    margin-top: 23px;
 }
 
 .navigation {
@@ -45,7 +68,6 @@ footer {
 }
 
 .logo {
-    background: url(assets/logo_b_square_small_final.svg) no-repeat center;
     height: 67.5px;
     width: 59px;
 }
@@ -63,7 +85,7 @@ ul.navigation-items {
 }
 
 .navigation-items li {
-    font-size: 13px;
+    font-size: 14px;
     color: #1e3360;
     padding: 0 10px 0 10px;
 }
@@ -73,17 +95,12 @@ ul.navigation-items {
     cursor: pointer;
 }
 
-.gold-amp {
-    color: #ffc257; 
-}
-
-/*.amp-position {
+.amp-position {
     position: absolute;
-    left: 91px;
-    top: 337px;
+    left: 26%;
     color:  #ffc257;
     font-size: 51px;
-}*/
+}
 
 .text-center {
     display: block;
@@ -107,7 +124,8 @@ address a {
     padding-left: 15px; 
 }
 
-.work-button, .back-top-button, .about-button {
+.work-button {
+    font-family: 'Open Sans', Helvetica, sans-serif;
     display: block;
     margin: 0 auto;
     width: 120px;
@@ -115,13 +133,42 @@ address a {
     background-color: #ffc257;
     color: #1e3360;
     border-radius: 12px;
-    font-size: 26px;
-    margin-bottom: 45px;
+    font-size: 22px;
+    margin-bottom: 65px;
     border: none;
 }
 
+.about-button {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    display: block;
+    margin: 0 auto;
+    width: 120px;
+    height: 50px;
+    background-color: #ffc257;
+    color: #1e3360;
+    border-radius: 12px;
+    font-size: 22px;
+    margin-bottom: 50px;
+    border: none;
+}
+
+.back-top-button {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    display: block;
+    margin: 0 auto;
+    width: 110px;
+    height: 30px;
+    background-color: #ffc257;
+    color: #1e3360;
+    border-radius: 12px;
+    font-size: 15px;
+    margin: 10px 0 40px 0;
+    border: none;
+    float: left;
+}
+
 .work-button:visited, .back-top-button:visited, .about-button:visited {
-    background-color:  #1e3360;
+    background-color:#ffc257;
     color: #fff;
     cursor: pointer;
 }
@@ -135,29 +182,40 @@ address a {
 .favicon-horizontal a{
     display: inline-block;
     margin-top: 10px;
-    margin-right: 10px;
+    margin-right: 15px;
 }
 
 .linkedin-icon {
     background: url(assets/linkedin.svg) no-repeat center;
-    height: 30px;
-    width: 30px;
+    height: 35px;
+    width: 35px;
 }
 
 .github-icon {
     background: url(assets/github.svg) no-repeat center;
-    height: 30px;
-    width: 30px;
+    height: 35px;
+    width: 35px;
 }
 
 .email-icon {
     background: url(assets/email.svg) no-repeat center;
-    height: 30px;
-    width:30px;
+    height: 35px;
+    width: 35px;
 }
 
-.brandon-photo, .hotkey-photo {
-    max-width: 85%;
+.brandon-photo {
+    width: 85%;
+    max-width: 500px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 7px;
+}
+
+.hotkey-photo {
+    width: 85%;
+    max-width: 500px;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -172,11 +230,25 @@ address a {
 .paragraph-center {
     display: block;
     margin: 0 auto;
-    width: 90%;
+    width: 86%;
 }
 
 .paragraph-text {
-    line-height: 1.4;
+    line-height: 1.6;
+    padding-top: 15px;
+}
+.second-paragraph-text {
+    padding-top: 0;
+    line-height: 1.6;
+    margin-top: -13px;
+}
+
+.down-space {
+    margin-top: 40px;
+}
+
+.tighten-title-space {
+    margin-bottom: 9px;
 }
 
 .job-title {
@@ -189,7 +261,7 @@ address a {
 }
 
 .job-title, .city-title {
-    font-family: 'Vollkorn', Georgia, serif;
+    font-family: 'Bree Serif', Georgia, serif;
 }
 
 .email {
@@ -222,8 +294,123 @@ address a {
 }
 
 .social-media-text {
+    font-family: 'Bree Serif', Georgia, serif;
     text-align: center;
     padding-top: 20px;
-    font-size: 20px;
+    font-size: 24px;
     margin-bottom: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.project-title {
+    text-align: center;
+}
+
+.fab {
+    font-size: 40px;
+    color: #1e3360;
+    margin-right: 10px;
+}
+
+.jquery {
+    height: 35px;
+    width: 35px;
+}
+
+.stack-programs {
+    padding-bottom: 29px;
+}
+
+.github-repo-link {
+    background: url(assets/github.svg) no-repeat center;
+    height: 35px;
+    width: 35px;
+}
+
+.github-links {
+    display: flex;
+    align-items: center;
+    height: 35px;
+    margin-bottom: 38px;
+}
+
+.github-text:link {
+    color: #1e3360;
+    margin-left: 10px; 
+}
+
+.github-text:visited {
+    color: #1e3360;
+}
+
+.github-text:hover {
+    color: #ffc257; 
+}
+
+/* Tablet Media Query */
+@media (min-width: 481px) and (max-width: 768px) {
+
+    .navigation {
+        padding: 0 20px 0 40px;
+        margin-top: 30px;
+    }
+
+    .navigation-items li {
+        font-size: 16px;
+        padding: 0 15px 0 15px;
+    }
+
+    .top-text {
+        padding-left: 40px;
+    }
+
+    .amp-position {
+        left: 30.5%;
+    }
+}
+
+/* Small Desktop Media Query */
+@media (min-width: 769px) and (max-width: 1260px) {
+   /*
+    .wrapper {
+        
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+      
+    .column {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 50%;
+        flex: 1;
+    }
+
+    .back-top-button {
+        float: none;
+    }
+
+    .left-column {
+        height: 700px;
+    }
+
+    .right-column {
+        height: 700px;
+    }
+
+    .brandon-photo {
+        max-width: 48%;
+    }
+
+    .address-center, .paragraph-center {
+        max-width: 48%;
+    }
+    */
 }
