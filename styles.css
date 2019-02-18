@@ -53,7 +53,7 @@ button:focus {
 .beige-background:before {
     content: "";
     position: absolute;
-    height: 423px;
+    height: 42%;
     background-color: #f8f7f5;
     z-index: -1;
     width: 100%;
@@ -104,17 +104,14 @@ ul.navigation-items {
 }
 
 .amp-position {
-    position: absolute;
-    left: 25%;
-    top: 33%;
     color:  #ffc257;
-    font-size: 63px;
+    font-size: 50px;
 }
 
 .text-center {
     display: block;
     margin: 0 auto;
-    width: 20%;
+    width: 30%;
     line-height: .9;
 }
 
@@ -382,12 +379,7 @@ address a {
     }
 
     .top-text {
-        padding-left: 16%;
-    }
-
-    .amp-position {
-        left: 34.5%;
-        top: 35%;
+        padding-left: 24%;
     }
 
     .address-center {
@@ -437,17 +429,15 @@ address a {
     }
 
     .top-text {
-        padding-left: 24%;
+        padding-left: 31%;
     }
 
     .text-center {
-        width: 10%;
+        width: 11%;
     }
 
     .amp-position {
-        left: 39%;
-        top: 39.5%;
-        font-size: 70px;
+        font-size: 53px;
     }
 
     .hotkey-photo {
@@ -497,18 +487,16 @@ address a {
     }
 
     .top-text {
-        padding-left: 30%;
+        padding-left: 36.2%;
 
     }
 
     .text-center {
-        width: 9%;
+        width: 8%;
     }
 
     .amp-position {
-        left: 41%;
-        top: 36%;
-        font-size: 70px;
+        font-size: 53px;
     }
 
     .brandon-photo {
@@ -530,12 +518,4 @@ address a {
     .paragraph-text {
         line-height: 1.8;
     }
-
-    /*.back-top-button {
-        width: 120px;
-        height: 40px;
-        font-size: 17px;
-    }*/
-
-
 }    
