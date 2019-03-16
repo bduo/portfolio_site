@@ -88,6 +88,7 @@ footer {
   justify-content: center;
   align-items: center;
   list-style: none;
+  margin-top: -30px;
 }
 
 ul.navigation-items {
@@ -95,9 +96,9 @@ ul.navigation-items {
 }
 
 .navigation-items li a {
-  font-size: 20px;
+  font-size: 12px;
   color: var(--text-header-main);
-  padding: 0 10px 0 10px;
+  padding: 0 0 0 10px;
 }
 
 .navigation-items li a:visited {
@@ -402,7 +403,7 @@ address a {
     padding: 30px 20px 0 40px;
   }
 
-  .navigation-items li {
+  .navigation-items li a {
     font-size: 16px;
     padding: 0 15px 0 15px;
   }
@@ -446,7 +447,7 @@ address a {
     padding: 40px 40px 0 60px;
   }
 
-  .navigation-items li {
+  .navigation-items li a {
     font-size: 18px;
     padding: 0 20px 0 20px;
   }
@@ -494,7 +495,7 @@ address a {
     padding: 45px 50px 0 70px;
   }
 
-  .navigation-items li {
+  .navigation-items li a {
     font-size: 19px;
     padding: 0 20px 0 20px;
   }
