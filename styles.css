@@ -78,8 +78,11 @@ footer {
 }
 
 .logo {
-  height: 67.5px;
-  width: 59px;
+  width: 42px;
+}
+
+.mobile-hide {
+    display: none;
 }
 
 .navigation-items {
@@ -88,7 +91,8 @@ footer {
   justify-content: center;
   align-items: center;
   list-style: none;
-  margin-top: -30px;
+  margin-top: 7px;
+  margin-right: 5px;
 }
 
 ul.navigation-items {
@@ -104,12 +108,10 @@ ul.navigation-items {
 .navigation-items li a:visited {
   background-color: var(--background-color);
   color: var(--text-header-main);
-  cursor: pointer;
 }
 
 .navigation-items li a:hover {
-  color: var(--secondary-color);
-  cursor: pointer;
+  color: var(--text-header-main);
 }
 
 .address-center {
@@ -405,7 +407,22 @@ address a {
 
   .navigation-items li a {
     font-size: 16px;
-    padding: 0 15px 0 15px;
+    padding: 0 15px 0 15px;  
+    color: var(--text-header-main);
+  }
+  
+  .navigation-items li a:visited {
+    background-color: var(--background-color);
+    color: var(--text-header-main);
+  }
+  
+  .navigation-items li a:hover {
+    color: var(--text-header-main);
+  }
+
+  .logo {
+    height: 67.5px;
+    width: 59px;
   }
 
   .address-center {
@@ -443,13 +460,30 @@ address a {
     margin-top: 52%;
   }
 
+  .logo {
+    height: 67.5px;
+    width: 59px;
+  }
+
   .navigation {
     padding: 40px 40px 0 60px;
   }
 
   .navigation-items li a {
+    color: var(--text-header-main);
     font-size: 18px;
     padding: 0 20px 0 20px;
+  }
+
+  .navigation-items li a:visited {
+    background-color: var(--background-color);
+    color: var(--text-header-main);
+    cursor: pointer;
+  }
+
+  .navigation-items li a:hover {
+    color: var(--secondary-color);
+    cursor: pointer;
   }
 
   .hotkey-photo {
@@ -491,13 +525,30 @@ address a {
     margin-top: 53%;
   }
 
+  .logo {
+    height: 67.5px;
+    width: 59px;
+  }
+
   .navigation {
     padding: 45px 50px 0 70px;
   }
 
   .navigation-items li a {
+    color: var(--text-header-main);
     font-size: 19px;
     padding: 0 20px 0 20px;
+  }
+
+  .navigation-items li a:visited {
+    background-color: var(--background-color);
+    color: var(--text-header-main);
+    cursor: pointer;
+  }
+
+  .navigation-items li a:hover {
+    color: var(--secondary-color);
+    cursor: pointer;
   }
 
   .brandon-photo {
