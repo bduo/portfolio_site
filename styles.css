@@ -170,7 +170,7 @@ address a {
 .work-button:visited,
 .back-top-button:visited,
 .about-button:visited {
-  background-color: var(--secondary-color);
+  background-color: var(--text-header-main);
   color: var(--text-header-main);
   cursor: pointer;
 }
@@ -401,6 +401,10 @@ address a {
     margin-top: 51.5%;
   }
 
+  .mobile-hide {
+    display: flex;
+}
+
   .navigation {
     padding: 30px 20px 0 40px;
   }
@@ -465,6 +469,10 @@ address a {
     width: 59px;
   }
 
+  .mobile-hide {
+    display: flex;
+}
+
   .navigation {
     padding: 40px 40px 0 60px;
   }
@@ -483,6 +491,65 @@ address a {
 
   .navigation-items li a:hover {
     color: var(--secondary-color);
+    cursor: pointer;
+  }
+
+  .work-button {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    display: block;
+    margin: 0 auto;
+    width: 120px;
+    height: 50px;
+    background-color: var(--secondary-color);
+    color: var(--text-header-main);
+    border-radius: 12px;
+    font-size: 22px;
+    margin-bottom: 65px;
+    border: none;
+  }
+  
+  .about-button {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    display: block;
+    margin: 0 auto;
+    width: 120px;
+    height: 50px;
+    background-color: var(--secondary-color);
+    color: var(--text-header-main);
+    border-radius: 12px;
+    font-size: 22px;
+    margin-bottom: 50px;
+    border: none;
+  }
+  
+  .back-top-button {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    display: block;
+    margin: 0 auto;
+    width: 110px;
+    height: 30px;
+    background-color: var(--secondary-color);
+    color: var(--text-header-main);
+    border-radius: 12px;
+    font-size: 15px;
+    margin: 10px 0 40px 0;
+    border: none;
+    float: left;
+  }
+  
+  .work-button:visited,
+  .back-top-button:visited,
+  .about-button:visited {
+    background-color: var(--secondary-color);
+    color: var(--text-header-main);
+    cursor: pointer;
+  }
+  
+  .work-button:hover,
+  .back-top-button:hover,
+  .about-button:hover {
+    background-color: var(--text-header-main);
+    color: var(--background-color);
     cursor: pointer;
   }
 
@@ -530,6 +597,10 @@ address a {
     width: 59px;
   }
 
+  .mobile-hide {
+    display: flex;
+}
+
   .navigation {
     padding: 45px 50px 0 70px;
   }
@@ -548,6 +619,65 @@ address a {
 
   .navigation-items li a:hover {
     color: var(--secondary-color);
+    cursor: pointer;
+  }
+
+  .work-button {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    display: block;
+    margin: 0 auto;
+    width: 120px;
+    height: 50px;
+    background-color: var(--secondary-color);
+    color: var(--text-header-main);
+    border-radius: 12px;
+    font-size: 22px;
+    margin-bottom: 65px;
+    border: none;
+  }
+  
+  .about-button {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    display: block;
+    margin: 0 auto;
+    width: 120px;
+    height: 50px;
+    background-color: var(--secondary-color);
+    color: var(--text-header-main);
+    border-radius: 12px;
+    font-size: 22px;
+    margin-bottom: 50px;
+    border: none;
+  }
+  
+  .back-top-button {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    display: block;
+    margin: 0 auto;
+    width: 110px;
+    height: 30px;
+    background-color: var(--secondary-color);
+    color: var(--text-header-main);
+    border-radius: 12px;
+    font-size: 15px;
+    margin: 10px 0 40px 0;
+    border: none;
+    float: left;
+  }
+  
+  .work-button:visited,
+  .back-top-button:visited,
+  .about-button:visited {
+    background-color: var(--secondary-color);
+    color: var(--text-header-main);
+    cursor: pointer;
+  }
+  
+  .work-button:hover,
+  .back-top-button:hover,
+  .about-button:hover {
+    background-color: var(--text-header-main);
+    color: var(--background-color);
     cursor: pointer;
   }
 
