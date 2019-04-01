@@ -81,10 +81,6 @@ footer {
   width: 42px;
 }
 
-.mobile-hide {
-    display: none;
-}
-
 .navigation-items {
   display: flex;
   flex-direction: row;
@@ -170,7 +166,7 @@ address a {
 .work-button:visited,
 .back-top-button:visited,
 .about-button:visited {
-  background-color: var(--text-header-main);
+  background-color: var(--secondary-color);
   color: var(--text-header-main);
   cursor: pointer;
 }
@@ -178,8 +174,8 @@ address a {
 .work-button:hover,
 .back-top-button:hover,
 .about-button:hover {
-  background-color: var(--text-header-main);
-  color: var(--background-color);
+  background-color: var(--secondary-color);
+  color: var(--text-header-main);
   cursor: pointer;
 }
 
@@ -196,7 +192,7 @@ address a {
 }
 
 .linkedin-icon:hover {
-  background: url(assets/linkedin_hover.svg) no-repeat center;
+  background: url(assets/linkedin.svg) no-repeat center;
 }
 
 .github-icon {
@@ -207,7 +203,7 @@ address a {
 
 .github-icon:hover,
 .github-repo-link:hover {
-  background: url(assets/github_hover.svg) no-repeat center;
+  background: url(assets/github.svg) no-repeat center;
 }
 
 .email-icon {
@@ -217,7 +213,7 @@ address a {
 }
 
 .email-icon:hover {
-  background: url(assets/email_hover.svg) no-repeat center;
+  background: url(assets/email.svg) no-repeat center;
 }
 
 .brandon-photo {
@@ -401,10 +397,6 @@ address a {
     margin-top: 51.5%;
   }
 
-  .mobile-hide {
-    display: flex;
-}
-
   .navigation {
     padding: 30px 20px 0 40px;
   }
@@ -468,10 +460,6 @@ address a {
     height: 67.5px;
     width: 59px;
   }
-
-  .mobile-hide {
-    display: flex;
-}
 
   .navigation {
     padding: 40px 40px 0 60px;
@@ -553,6 +541,37 @@ address a {
     cursor: pointer;
   }
 
+  .linkedin-icon {
+    background: url(assets/linkedin.svg) no-repeat center;
+    height: 35px;
+    width: 35px;
+  }
+  
+  .linkedin-icon:hover {
+    background: url(assets/linkedin_hover.svg) no-repeat center;
+  }
+  
+  .github-icon {
+    background: url(assets/github.svg) no-repeat center;
+    height: 35px;
+    width: 35px;
+  }
+  
+  .github-icon:hover,
+  .github-repo-link:hover {
+    background: url(assets/github_hover.svg) no-repeat center;
+  }
+  
+  .email-icon {
+    background: url(assets/email.svg) no-repeat center;
+    height: 35px;
+    width: 35px;
+  }
+  
+  .email-icon:hover {
+    background: url(assets/email_hover.svg) no-repeat center;
+  }
+  
   .hotkey-photo {
     max-width: 600px;
   }
@@ -596,10 +615,6 @@ address a {
     height: 67.5px;
     width: 59px;
   }
-
-  .mobile-hide {
-    display: flex;
-}
 
   .navigation {
     padding: 45px 50px 0 70px;
@@ -681,6 +696,37 @@ address a {
     cursor: pointer;
   }
 
+  .linkedin-icon {
+    background: url(assets/linkedin.svg) no-repeat center;
+    height: 35px;
+    width: 35px;
+  }
+  
+  .linkedin-icon:hover {
+    background: url(assets/linkedin_hover.svg) no-repeat center;
+  }
+  
+  .github-icon {
+    background: url(assets/github.svg) no-repeat center;
+    height: 35px;
+    width: 35px;
+  }
+  
+  .github-icon:hover,
+  .github-repo-link:hover {
+    background: url(assets/github_hover.svg) no-repeat center;
+  }
+  
+  .email-icon {
+    background: url(assets/email.svg) no-repeat center;
+    height: 35px;
+    width: 35px;
+  }
+  
+  .email-icon:hover {
+    background: url(assets/email_hover.svg) no-repeat center;
+  }
+  
   .brandon-photo {
     max-width: 650px;
   }
