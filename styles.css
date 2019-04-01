@@ -110,6 +110,10 @@ ul.navigation-items {
   color: var(--text-header-main);
 }
 
+.hide-mobile {
+  display: none;
+}
+
 .address-center {
   display: block;
   margin: 0 auto;
@@ -427,6 +431,10 @@ address a {
     width: 59px;
   }
 
+  .hide-mobile {
+    display: flex;
+  }
+
   .address-center {
     width: 38%;
   }
@@ -486,6 +494,10 @@ address a {
   .navigation-items li a:hover {
     color: var(--secondary-color);
     cursor: pointer;
+  }
+
+  .hide-mobile {
+    display: flex;
   }
 
   .work-button {
@@ -641,6 +653,10 @@ address a {
   .navigation-items li a:hover {
     color: var(--secondary-color);
     cursor: pointer;
+  }
+
+  .hide-mobile {
+    display: flex;
   }
 
   .work-button {
