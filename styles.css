@@ -132,6 +132,8 @@ address a {
   font-size: 22px;
   margin-bottom: 65px;
   border: none;
+  text-align: center;
+  line-height: 2.2;
 }
 
 .about-button {
@@ -146,6 +148,8 @@ address a {
   font-size: 22px;
   margin-bottom: 50px;
   border: none;
+  text-align: center;
+  line-height: 2.2;
 }
 
 .back-top-button {
@@ -161,6 +165,8 @@ address a {
   margin: 10px 0 40px 0;
   border: none;
   float: left;
+  text-align: center;
+  line-height: 1.9;
 }
 
 .work-button:visited,
