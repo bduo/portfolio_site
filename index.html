@@ -12,6 +12,7 @@
 </head>
 <body id="back-to-top">
     <header role="banner">
+        <!-- Nav's implicit role is navigation. Unless you're supporting IE8-, this isn't needed.-->
         <nav role="navigation" class="navigation">
             <img src="assets/brandon.svg" class="logo" alt="Brandon Portfolio Logo">     
             <ul class="navigation-items">
@@ -25,10 +26,13 @@
             <source src="assets/small_brandon_video.mp4" type="video/mp4" />
         </video>
     </header>
+    <!-- Main's implicit role is main. Unless you're supporting IE8-, this isn't needed.-->
     <main role="main">
         <a href="#work_section" class="work-button">Work</a>
+        <!-- Section's implicit role is region. Unless you're supporting IE8-, this isn't needed.-->
         <section role="region" id="about_section">
             <img src="assets/brandon.jpg" alt="Photo of Brandon El Haj" class="brandon-photo">
+            <!-- Maybe an <address> tag is more semantic here? Div seems too generic.-->
             <div class="address-center">
                 <h2 class="job-title">Full Stack Developer</h2>
                 <h3 class="city-title">Portland, OR</h3>
@@ -55,6 +59,7 @@
                 <a href="#back-to-top" class="back-top-button">back to top</a>
             </div>
         </section>
+        <!-- Use the clearfix trick instead. Empty elements make it harder for screen readers to parse your content. -->
         <div class="clear"></div>
         <section role="region" id="work_section">
             <h1 class="center-h1">Work</h1>
@@ -129,6 +134,7 @@
                 not they need to study more.    
                 </p>
                 <h3 class="tighten-title-space">Stack Used:</h3>
+                <!-- This is a list. Should probably use a <ul> element here. -->
                 <div class="stack-programs">
                     <i class="fab fa-html5"></i>
                     <i class="fab fa-css3-alt"></i>
@@ -136,6 +142,7 @@
                     <img src="assets/jquery.svg" class="jquery" alt="jQuery Logo"> 
                 </div>
                 <h3 class="tighten-title-space">GitHub:</h3>
+                <!-- This is a nav. Can use <nav> element here.-->
                 <div class="github-links">
                     <a href="https://github.com/bduo/Mac-OS-Hotkey-Quiz" class="github-repo-link"></a>
                     <a href="https://nw-iguana.github.io/brandon-jonathan-quiz-app/" class="github-text">Live Demo</a>  
@@ -170,11 +177,13 @@
     </main>
     <footer role="contentinfo">
         <p class="social-media-text">Find Me!</p>
+        <!-- Nav -->
         <div class="favicon-footer center-icons">
             <a href="https://github.com/bduo" class="github-icon-footer"></a>
             <a href="https://www.linkedin.com/in/brandonelhaj/" class="linkedin-icon-footer"></a>
             <a href="mailto:brandon.elhaj@gmail.com?subject=Brandon_Portfolio" class="email-icon-footer"></a>
         </div>
+        <!-- Looks like <small> is a better element to use here. -->
         <p class="footer-copyright center-icons">&copy; Brandon El Haj 2019</p>
     </footer>
 <script src="scripts.js"></script>        

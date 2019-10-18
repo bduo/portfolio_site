@@ -49,6 +49,9 @@ a {
   text-decoration: none;
 }
 
+/* You removed focus styles, but I don't see any styles to replace this functionality for keyboard users.
+   As I use your site without a mouse, I have no idea where the cursor is.
+   Consider adding your own focus styles or leaving the default styles intact. */
 a:focus,
 button:focus {
   outline: 0;
@@ -95,6 +98,7 @@ ul.navigation-items {
   padding-left: 0;
 }
 
+/* This is more stylistic than anything, but I'd say avoid having nested rules deeper than two steps. */
 .navigation-items li a {
   font-size: 12px;
   color: var(--text-header-main);
@@ -110,6 +114,8 @@ ul.navigation-items {
   color: var(--text-header-main);
 }
 
+/* Is the content you're hiding not relevant for mobile users?
+   If it's not relevant to mobile ussers, why is it relevant for desktop users? */
 .hide-mobile {
   display: none;
 }
@@ -186,7 +192,7 @@ address a {
 .about-button:hover {
   background-color: var(--secondary-color);
   color: var(--text-header-main);
-  cursor: pointer;
+  cursor: pointer; /* <a> tags should be cursor:pointer by default. Not sure if you need this. */
 }
 
 .favicon-horizontal a {
