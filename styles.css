@@ -49,12 +49,12 @@ a {
   text-decoration: none;
 }
 
-a:focus,
+/* a:focus,
 button:focus {
-  outline: 0;
-  border: none;
-  -moz-outline-style: none;
-}
+  outline: solid;
+  border: 2px solid var(--text-header-main);
+  box-shadow: 0 0 10px var(--text-header-main);
+} */
 
 video {
   position: absolute;
@@ -114,7 +114,7 @@ ul.navigation-items {
   display: none;
 }
 
-.address-center {
+.job-profile-center {
   display: block;
   margin: 0 auto;
   width: 240px;
@@ -178,7 +178,6 @@ address a {
 .about-button:visited {
   background-color: var(--secondary-color);
   color: var(--text-header-main);
-  cursor: pointer;
 }
 
 .work-button:hover,
@@ -186,7 +185,6 @@ address a {
 .about-button:hover {
   background-color: var(--secondary-color);
   color: var(--text-header-main);
-  cursor: pointer;
 }
 
 .favicon-horizontal a {
@@ -325,8 +323,10 @@ address a {
   margin-bottom: 0;
 }
 
-.clear {
+.clearfix::after {
+  content: "";
   clear: both;
+  display: table;
 }
 
 .project-title {
@@ -354,7 +354,9 @@ address a {
 }
 
 .stack-programs {
-  padding-bottom: 5px;
+  display: inline-flex;
+  list-style-type: none;
+  padding: 0 0 5px 0;
 }
 
 .github-repo-link {
@@ -440,7 +442,7 @@ address a {
     display: flex;
   }
 
-  .address-center {
+  .job-profile-center {
     width: 38%;
   }
 
@@ -603,7 +605,7 @@ address a {
     max-width: 575px;
   }
 
-  .address-center {
+  .job-profile-center {
     width: 29%;
   }
 
@@ -762,7 +764,7 @@ address a {
     max-width: 700px;
   }
 
-  .address-center {
+  .job-profile-center {
     width: 26%;
   }
 

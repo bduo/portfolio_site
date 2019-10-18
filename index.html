@@ -12,7 +12,7 @@
 </head>
 <body id="back-to-top">
     <header role="banner">
-        <nav role="navigation" class="navigation">
+        <nav class="navigation">
             <img src="assets/brandon.svg" class="logo" alt="Brandon Portfolio Logo">     
             <ul class="navigation-items">
                 <li class="hide-mobile"><a href="#work_section">work</a></li>
@@ -25,19 +25,19 @@
             <source src="assets/small_brandon_video.mp4" type="video/mp4" />
         </video>
     </header>
-    <main role="main">
+    <main>
         <a href="#work_section" class="work-button">Work</a>
-        <section role="region" id="about_section">
+        <section id="about_section">
             <img src="assets/brandon.jpg" alt="Photo of Brandon El Haj" class="brandon-photo">
-            <div class="address-center">
+            <div class="job-profile-center">
                 <h2 class="job-title">Full Stack Developer</h2>
                 <h3 class="city-title">Portland, OR</h3>
                 <a href="mailto:brandon.elhaj@gmail.com?subject=Brandon_Portfolio" class="email">BRANDON.ELHAJ@GMAIL.COM</a>
-                <div class="favicon-horizontal">
+                <nav class="favicon-horizontal">
                     <a href="https://github.com/bduo" class="github-icon"></a>
                     <a href="https://www.linkedin.com/in/brandonelhaj/" class="linkedin-icon"></a>
                     <a href="mailto:brandon.elhaj@gmail.com?subject=Brandon_Portfolio" class="email-icon"></a>
-                </div>
+                </nav>
             </div>    
             <div class="paragraph-center">
                 <p class="paragraph-text">Hey! Glad you're checking out my site. My name is Brandon El Haj and I'm a 
@@ -55,8 +55,8 @@
                 <a href="#back-to-top" class="back-top-button">back to top</a>
             </div>
         </section>
-        <div class="clear"></div>
-        <section role="region" id="work_section">
+        <div class="clearfix"></div>
+        <section id="work_section">
             <h1 class="center-h1">Work</h1>
             <h2 class="project-title">Know Your Gov</h2>
             <a href="https://knowyourgov.brandonelhaj.now.sh/"><img src="assets/knowyourgov.png" alt="Know Your Gov App" class="hotkey-photo shadow-img"></a>
@@ -66,17 +66,17 @@
                 Know Your Gov is a civic informational tool where users can look up their elected representatives at the state and federal levels using a home address. The full stack application utilizes the Google Civic Information API to deliver the elected representatives contact information and personal website. The responsive mobile first design allows users to easily contact their representative via phone, email, or through their website. Users also have the option of registering for the service and storing their address in the database to retrieve their representatives information for future reference.         
                 </p>
                 <h3 class="tighten-title-space">Stack Used:</h3>
-                <div class="stack-programs">
-                    <i class="fab fa-react"></i>
-                    <i class="fab fa-node"></i>
-                    <i class="fab fa-css3-alt"></i>
-                    <img src="assets/postgresql.svg" class="postgreSQL" alt="PostgreSQL Logo">
-                </div>
+                <ul class="stack-programs">
+                    <li><i class="fab fa-react"></i></li>
+                    <li><i class="fab fa-node"></i>
+                    <li><i class="fab fa-css3-alt"></i></li>
+                    <li><img src="assets/postgresql.svg" class="postgreSQL" alt="PostgreSQL Logo"></li>
+                </ul>
                 <h3 class="tighten-title-space">GitHub:</h3>
-                <div class="github-links">
+                <nav class="github-links">
                     <a href="https://github.com/bduo/knowyourgov" class="github-repo-link"></a>
                     <a href="https://knowyourgov.brandonelhaj.now.sh/" class="github-text">Live Demo</a>  
-                </div>    
+                </nav>    
             </div>
             <h2 class="project-title more-space">The Community Toolbox</h2>
             <a href="https://toolbox-client.teamredpanda.now.sh/"><img src="assets/communitytb.png" alt="The Community Toolbox App" class="hotkey-photo shadow-img"></a>
@@ -86,17 +86,17 @@
                 The Community Toolbox is an online tool library where users can find and rent tools for home improvement projects. The full stack application allows the user to create a profile for reserving tools and checking them out. When a tool is checked out the user is given instructions to the wherehouse and how the pick-up process works.     
                 </p>
                 <h3 class="tighten-title-space">Stack Used:</h3>
-                <div class="stack-programs">
-                    <i class="fab fa-react"></i>
-                    <i class="fab fa-node"></i>
-                    <i class="fab fa-css3-alt"></i>
-                    <img src="assets/postgresql.svg" class="postgreSQL" alt="PostgreSQL Logo">
-                </div>
+                <ul class="stack-programs">
+                    <li><i class="fab fa-react"></i></li>
+                    <li><i class="fab fa-node"></i></li>
+                    <li><i class="fab fa-css3-alt"></i></li>
+                    <li><img src="assets/postgresql.svg" class="postgreSQL" alt="PostgreSQL Logo"></li>
+                </ul>
                 <h3 class="tighten-title-space">GitHub:</h3>
-                <div class="github-links">
+                <nav class="github-links">
                     <a href="https://github.com/CommunityTB/toolbox-client" class="github-repo-link"></a>
                     <a href="https://toolbox-client.teamredpanda.now.sh/" class="github-text">Live Demo</a>  
-                </div>    
+                </nav>    
             </div>
             <h2 class="project-title more-space">TripSpiration</h2>
             <a href="https://bduo.github.io/tripspiration_app/"><img src="assets/tripspiration.png" alt="Tripspiration App" class="hotkey-photo shadow-img"></a>
@@ -106,17 +106,17 @@
                 This application relies on four APIs (FourSquare, OpenWeatherMap, Pixabay, Dark Sky) to inspire the user to travel to a particular city. The content is dynamically generated based on user input. When prompted to enter a travel destination they're curious about and their preferred travel month, the application returns a gallery of spectacular vistas of the city, current and projected weather conditions based on historical weather patterns, in addition to a list of popular local points of interest to visit. TripSpiration is here to help inspire your next trip!       
                 </p>
                 <h3 class="tighten-title-space">Stack Used:</h3>
-                <div class="stack-programs">
-                    <i class="fab fa-html5"></i>
-                    <i class="fab fa-css3-alt"></i>
-                    <i class="fab fa-js-square"></i>
-                    <img src="assets/jquery.svg" class="jquery" alt="jQuery Logo">
-                </div>
+                <ul class="stack-programs">
+                    <li><i class="fab fa-html5"></i></li>
+                    <li><i class="fab fa-css3-alt"></i></li>
+                    <li><i class="fab fa-js-square"></i></li>
+                    <li><img src="assets/jquery.svg" class="jquery" alt="jQuery Logo"></li>
+                </ul>
                 <h3 class="tighten-title-space">GitHub:</h3>
-                <div class="github-links">
+                <nav class="github-links">
                     <a href="https://github.com/bduo/tripspiration_app" class="github-repo-link"></a>
                     <a href="https://bduo.github.io/tripspiration_app/" class="github-text">Live Demo</a>  
-                </div>    
+                </nav>    
             </div>
             <h2 class="project-title more-space">Mac OS HotKey Quiz</h2>
             <a href="https://nw-iguana.github.io/brandon-jonathan-quiz-app/"><img src="assets/hotkey_quiz_app.png" alt="Mac OS HotKey Quiz App" class="hotkey-photo shadow-img"></a>
@@ -129,17 +129,17 @@
                 not they need to study more.    
                 </p>
                 <h3 class="tighten-title-space">Stack Used:</h3>
-                <div class="stack-programs">
-                    <i class="fab fa-html5"></i>
-                    <i class="fab fa-css3-alt"></i>
-                    <i class="fab fa-js-square"></i>
-                    <img src="assets/jquery.svg" class="jquery" alt="jQuery Logo"> 
-                </div>
+                <ul class="stack-programs">
+                    <li><i class="fab fa-html5"></i></li>
+                    <li><i class="fab fa-css3-alt"></i></li>
+                    <li><i class="fab fa-js-square"></i></li>
+                    <li><img src="assets/jquery.svg" class="jquery" alt="jQuery Logo"></li> 
+                </ul>
                 <h3 class="tighten-title-space">GitHub:</h3>
-                <div class="github-links">
+                <nav class="github-links">
                     <a href="https://github.com/bduo/Mac-OS-Hotkey-Quiz" class="github-repo-link"></a>
                     <a href="https://nw-iguana.github.io/brandon-jonathan-quiz-app/" class="github-text">Live Demo</a>  
-                </div>    
+                </nav>    
             </div>
             <h2 class="project-title more-space">Portland Integrative<br>Psychiatry</h2>
             <a href="https://www.pipsychiatry.com/"><img src="assets/pipscyhiatry_desktop.png" alt="Portland Integrative Psychiatry Website" class="hotkey-photo shadow-img"></a>
@@ -153,17 +153,17 @@
                 the important information easily digestible. Enjoy :)       
                 </p>
                 <h3 class="tighten-title-space">Stack Used:</h3>
-                <div class="stack-programs">
-                    <i class="fab fa-html5"></i>
-                    <i class="fab fa-css3-alt"></i>
-                    <i class="fab fa-php"></i>
-                    <img src="assets/jquery.svg" class="jquery" alt="jQuery Logo"> 
-                </div>
+                <ul class="stack-programs">
+                    <li><i class="fab fa-html5"></i></li>
+                    <li><i class="fab fa-css3-alt"></i></li>
+                    <li><i class="fab fa-php"></i></li>
+                    <li><img src="assets/jquery.svg" class="jquery" alt="jQuery Logo"></li> 
+                </ul>
                 <h3 class="tighten-title-space">GitHub:</h3>
-                <div class="github-links">
+                <nav class="github-links">
                     <a href="https://github.com/bduo/pipsychiatry" class="github-repo-link"></a>
                     <a href="https://www.pipsychiatry.com/" class="github-text">Live Demo</a>  
-                </div>    
+                </nav>    
             </div>
             <a href="#about_section" class="about-button">About</a>
         </section>
