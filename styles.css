@@ -120,6 +120,10 @@ ul.navigation-items {
   width: 240px;
 }
 
+address {
+  font-style: normal;
+}
+
 address a {
   display: block;
 }
@@ -279,6 +283,7 @@ address a {
 
 .city-title {
   margin-top: 2px;
+  margin-bottom: 10px;
 }
 
 .job-title,
@@ -288,7 +293,7 @@ address a {
 
 .email {
   color: var(--text-header-main);
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   font-size: 16px;
 }
 
@@ -298,6 +303,8 @@ address a {
 
 .footer-copyright {
   text-align: center;
+  font-size: 11px;
+  margin-bottom: 12px;
 }
 
 .favicon-footer a {
@@ -308,11 +315,6 @@ address a {
 
 .center-icons {
   text-align: center;
-}
-
-.footer-copyright {
-  font-size: 11px;
-  margin-bottom: 12px;
 }
 
 .social-media-text {
