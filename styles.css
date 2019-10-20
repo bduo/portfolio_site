@@ -49,8 +49,7 @@ a {
   text-decoration: none;
 }
 
-a:focus,
-button:focus {
+a:focus {
   outline: 3px solid var(--text-header-main);
 }
 
