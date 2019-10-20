@@ -49,12 +49,10 @@ a {
   text-decoration: none;
 }
 
-/* a:focus,
+a:focus,
 button:focus {
-  outline: solid;
-  border: 2px solid var(--text-header-main);
-  box-shadow: 0 0 10px var(--text-header-main);
-} */
+  outline: 3px solid var(--text-header-main);
+}
 
 video {
   position: absolute;
