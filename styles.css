@@ -121,14 +121,6 @@ ul.navigation-items {
   width: 240px;
 }
 
-address {
-  font-style: normal;
-}
-
-address a {
-  display: block;
-}
-
 .work-button {
   font-family: "Open Sans", Helvetica, sans-serif;
   display: block;
@@ -444,10 +436,6 @@ address a {
 
   .hide-mobile {
     display: flex;
-  }
-
-  .job-profile-center {
-    width: 38%;
   }
 
   .paragraph-center {
