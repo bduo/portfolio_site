@@ -186,8 +186,8 @@ ul.navigation-items {
 
 .favicon-horizontal a {
   display: inline-block;
-  margin-top: 10px;
-  margin-right: 15px;
+  margin-top: 15px;
+  margin-right: 14px;
 }
 
 .linkedin-icon {
@@ -405,7 +405,7 @@ ul.navigation-items {
 }
 
 /* Tablet Media Query */
-@media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 481px) {
   main {
     margin-top: 51.5%;
   }
@@ -448,7 +448,7 @@ ul.navigation-items {
 }
 
 /* Small Desktop Media Query */
-@media (min-width: 769px) and (max-width: 1260px) {
+@media (min-width: 769px) {
   header {
     margin-bottom: 80px;
   }
@@ -611,7 +611,7 @@ ul.navigation-items {
 }
 
 /* Large Desktop Media Query */
-@media (min-width: 1261px) and (max-width: 4000px) {
+@media (min-width: 1261px) {
   p {
     font-size: 17px;
   }
